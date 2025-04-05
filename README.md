@@ -1,13 +1,13 @@
 📷 Gerador de QR Code (Base64)
 Este projeto permite gerar códigos QR a partir de um texto ou URL fornecido pelo usuário.
-O QR Code gerado pode ser escaneado por qualquer dispositivo móvel para acessar o conteúdo, e também é convertido em Base64.
+O QR Code é gerado em imagem e também convertido para o formato Base64, podendo ser utilizado diretamente em aplicações ou sistemas.
 
 
 ⚙️ Como funciona
 
-1. O usuário insere um texto ou URL na interface.
-2. O sistema gera um QR Code correspondente.
-3. A imagem gerada é exibida e pode ser escaneada ou copiada em formato Base64.
+1. O usuário fornece um texto ou URL através do código.
+2. O sistema gera o QR Code correspondente.
+3. A imagem gerada é convertida em Base64 e exibida no terminal.
 
 
 🚀 Como usar
@@ -26,23 +26,20 @@ Copiar
 Editar
 npm install
 
-3. Inicie o servidor:
+3. Execute o projeto:
 
 bash
 Copiar
 Editar
 npm start
 
-4. Abra o navegador e acesse http://localhost:3000
-
 🧪 Interface de Teste
-O projeto possui uma interface simples feita com HTML e CSS localizada na raiz, permitindo gerar QR Codes diretamente no navegador.
-Você pode inserir qualquer texto ou URL, e o sistema exibirá o código gerado instantaneamente.
+📌 Este projeto não possui interface gráfica. A geração do QR Code acontece via terminal.
+O código Base64 será exibido no console e pode ser copiado para uso.
 
 🛠️ Tecnologias utilizadas
 
 Node.js
 Express
 qrcode (biblioteca para geração de QR Code)
-HTML e CSS (interface básica)
 
