@@ -13,33 +13,36 @@ O QR Code é gerado em imagem e também convertido para o formato Base64, podend
 🚀 Como usar
 1. Clone o repositório:
 
-bash
+```bash
 Copiar
 Editar
 git clone https://github.com/Kevin-Ramos7/gerador-qrcode.git
 cd gerador-qrcode
+```
 
 2. Instale as dependências:
 
-bash
+```bash
 Copiar
 Editar
 npm install
+```
 
 3. Execute o projeto:
 
-bash
+```bash
 Copiar
 Editar
 npm start
+```
 
 🧪 Interface de Teste
 📌 Este projeto não possui interface gráfica. A geração do QR Code acontece via terminal.
 O código Base64 será exibido no console e pode ser copiado para uso.
 
 🛠️ Tecnologias utilizadas
-
+```bash
 Node.js
 Express
 qrcode (biblioteca para geração de QR Code)
-
+```
