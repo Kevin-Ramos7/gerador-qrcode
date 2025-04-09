@@ -29,7 +29,7 @@ npm install
 3. Execute o projeto:
 
 ```bash
-exemplo com node: node index.js
+npm start
 ```
 
 🧪 Interface de Teste:
